@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226909AD293F67B1005E0C31 /* MotifApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909AC293F67B1005E0C31 /* MotifApp.swift */; };
+		226909AF293F67B1005E0C31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909AE293F67B1005E0C31 /* ContentView.swift */; };
+		226909B1293F67B2005E0C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226909B0293F67B2005E0C31 /* Assets.xcassets */; };
+		226909B4293F67B2005E0C31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226909B3293F67B2005E0C31 /* Preview Assets.xcassets */; };
+		226909BE293F67B2005E0C31 /* MotifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909BD293F67B2005E0C31 /* MotifTests.swift */; };
+		226909C8293F67B2005E0C31 /* MotifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909C7293F67B2005E0C31 /* MotifUITests.swift */; };
+		226909CA293F67B2005E0C31 /* MotifUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909C9293F67B2005E0C31 /* MotifUITestsLaunchTests.swift */; };
+		226909D92940C7E1005E0C31 /* ChangePass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909D82940C7E1005E0C31 /* ChangePass.swift */; };
+		226909DB2940DEF8005E0C31 /* following.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909DA2940DEF8005E0C31 /* following.swift */; };
+		226909DF2942199D005E0C31 /* following2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909DE2942199D005E0C31 /* following2.swift */; };
+		226909E12945FC4C005E0C31 /* followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909E02945FC4C005E0C31 /* followers.swift */; };
+		226909E32945FF44005E0C31 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909E22945FF44005E0C31 /* profile.swift */; };
+		226909E529460DA8005E0C31 /* messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909E429460DA8005E0C31 /* messages.swift */; };
+		226909E7294761A3005E0C31 /* editingpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909E6294761A3005E0C31 /* editingpage.swift */; };
+		226909E92948A034005E0C31 /* bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226909E82948A034005E0C31 /* bar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226909BA293F67B2005E0C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226909A1293F67B1005E0C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226909A8293F67B1005E0C31;
+			remoteInfo = Motif;
+		};
+		226909C4293F67B2005E0C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226909A1293F67B1005E0C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226909A8293F67B1005E0C31;
+			remoteInfo = Motif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		226909A9293F67B1005E0C31 /* Motif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226909AC293F67B1005E0C31 /* MotifApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifApp.swift; sourceTree = "<group>"; };
+		226909AE293F67B1005E0C31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		226909B0293F67B2005E0C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		226909B3293F67B2005E0C31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		226909B9293F67B2005E0C31 /* MotifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226909BD293F67B2005E0C31 /* MotifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifTests.swift; sourceTree = "<group>"; };
+		226909C3293F67B2005E0C31 /* MotifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226909C7293F67B2005E0C31 /* MotifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifUITests.swift; sourceTree = "<group>"; };
+		226909C9293F67B2005E0C31 /* MotifUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotifUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		226909D82940C7E1005E0C31 /* ChangePass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePass.swift; sourceTree = "<group>"; };
+		226909DA2940DEF8005E0C31 /* following.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = following.swift; sourceTree = "<group>"; };
+		226909DE2942199D005E0C31 /* following2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = following2.swift; sourceTree = "<group>"; };
+		226909E02945FC4C005E0C31 /* followers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followers.swift; sourceTree = "<group>"; };
+		226909E22945FF44005E0C31 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		226909E429460DA8005E0C31 /* messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messages.swift; sourceTree = "<group>"; };
+		226909E6294761A3005E0C31 /* editingpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editingpage.swift; sourceTree = "<group>"; };
+		226909E82948A034005E0C31 /* bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226909A6293F67B1005E0C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909B6293F67B2005E0C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909C0293F67B2005E0C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226909A0293F67B1005E0C31 = {
+			isa = PBXGroup;
+			children = (
+				226909AB293F67B1005E0C31 /* Motif */,
+				226909BC293F67B2005E0C31 /* MotifTests */,
+				226909C6293F67B2005E0C31 /* MotifUITests */,
+				226909AA293F67B1005E0C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226909AA293F67B1005E0C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226909A9293F67B1005E0C31 /* Motif.app */,
+				226909B9293F67B2005E0C31 /* MotifTests.xctest */,
+				226909C3293F67B2005E0C31 /* MotifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226909AB293F67B1005E0C31 /* Motif */ = {
+			isa = PBXGroup;
+			children = (
+				226909AC293F67B1005E0C31 /* MotifApp.swift */,
+				226909AE293F67B1005E0C31 /* ContentView.swift */,
+				226909B0293F67B2005E0C31 /* Assets.xcassets */,
+				226909B2293F67B2005E0C31 /* Preview Content */,
+				226909D82940C7E1005E0C31 /* ChangePass.swift */,
+				226909DA2940DEF8005E0C31 /* following.swift */,
+				226909DE2942199D005E0C31 /* following2.swift */,
+				226909E02945FC4C005E0C31 /* followers.swift */,
+				226909E22945FF44005E0C31 /* profile.swift */,
+				226909E6294761A3005E0C31 /* editingpage.swift */,
+				226909E429460DA8005E0C31 /* messages.swift */,
+			);
+			path = Motif;
+			sourceTree = "<group>";
+		};
+		226909B2293F67B2005E0C31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				226909B3293F67B2005E0C31 /* Preview Assets.xcassets */,
+				226909E82948A034005E0C31 /* bar.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		226909BC293F67B2005E0C31 /* MotifTests */ = {
+			isa = PBXGroup;
+			children = (
+				226909BD293F67B2005E0C31 /* MotifTests.swift */,
+			);
+			path = MotifTests;
+			sourceTree = "<group>";
+		};
+		226909C6293F67B2005E0C31 /* MotifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				226909C7293F67B2005E0C31 /* MotifUITests.swift */,
+				226909C9293F67B2005E0C31 /* MotifUITestsLaunchTests.swift */,
+			);
+			path = MotifUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226909A8293F67B1005E0C31 /* Motif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226909CD293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "Motif" */;
+			buildPhases = (
+				226909A5293F67B1005E0C31 /* Sources */,
+				226909A6293F67B1005E0C31 /* Frameworks */,
+				226909A7293F67B1005E0C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motif;
+			productName = Motif;
+			productReference = 226909A9293F67B1005E0C31 /* Motif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226909B8293F67B2005E0C31 /* MotifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226909D0293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "MotifTests" */;
+			buildPhases = (
+				226909B5293F67B2005E0C31 /* Sources */,
+				226909B6293F67B2005E0C31 /* Frameworks */,
+				226909B7293F67B2005E0C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226909BB293F67B2005E0C31 /* PBXTargetDependency */,
+			);
+			name = MotifTests;
+			productName = MotifTests;
+			productReference = 226909B9293F67B2005E0C31 /* MotifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		226909C2293F67B2005E0C31 /* MotifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226909D3293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "MotifUITests" */;
+			buildPhases = (
+				226909BF293F67B2005E0C31 /* Sources */,
+				226909C0293F67B2005E0C31 /* Frameworks */,
+				226909C1293F67B2005E0C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226909C5293F67B2005E0C31 /* PBXTargetDependency */,
+			);
+			name = MotifUITests;
+			productName = MotifUITests;
+			productReference = 226909C3293F67B2005E0C31 /* MotifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226909A1293F67B1005E0C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					226909A8293F67B1005E0C31 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					226909B8293F67B2005E0C31 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 226909A8293F67B1005E0C31;
+					};
+					226909C2293F67B2005E0C31 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 226909A8293F67B1005E0C31;
+					};
+				};
+			};
+			buildConfigurationList = 226909A4293F67B1005E0C31 /* Build configuration list for PBXProject "Motif" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 226909A0293F67B1005E0C31;
+			productRefGroup = 226909AA293F67B1005E0C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226909A8293F67B1005E0C31 /* Motif */,
+				226909B8293F67B2005E0C31 /* MotifTests */,
+				226909C2293F67B2005E0C31 /* MotifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226909A7293F67B1005E0C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226909B4293F67B2005E0C31 /* Preview Assets.xcassets in Resources */,
+				226909B1293F67B2005E0C31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909B7293F67B2005E0C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909C1293F67B2005E0C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226909A5293F67B1005E0C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226909DF2942199D005E0C31 /* following2.swift in Sources */,
+				226909E529460DA8005E0C31 /* messages.swift in Sources */,
+				226909E7294761A3005E0C31 /* editingpage.swift in Sources */,
+				226909E92948A034005E0C31 /* bar.swift in Sources */,
+				226909E12945FC4C005E0C31 /* followers.swift in Sources */,
+				226909AF293F67B1005E0C31 /* ContentView.swift in Sources */,
+				226909AD293F67B1005E0C31 /* MotifApp.swift in Sources */,
+				226909E32945FF44005E0C31 /* profile.swift in Sources */,
+				226909D92940C7E1005E0C31 /* ChangePass.swift in Sources */,
+				226909DB2940DEF8005E0C31 /* following.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909B5293F67B2005E0C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226909BE293F67B2005E0C31 /* MotifTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226909BF293F67B2005E0C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226909CA293F67B2005E0C31 /* MotifUITestsLaunchTests.swift in Sources */,
+				226909C8293F67B2005E0C31 /* MotifUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226909BB293F67B2005E0C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226909A8293F67B1005E0C31 /* Motif */;
+			targetProxy = 226909BA293F67B2005E0C31 /* PBXContainerItemProxy */;
+		};
+		226909C5293F67B2005E0C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226909A8293F67B1005E0C31 /* Motif */;
+			targetProxy = 226909C4293F67B2005E0C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		226909CB293F67B2005E0C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		226909CC293F67B2005E0C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226909CE293F67B2005E0C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motif/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.Motif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226909CF293F67B2005E0C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motif/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.Motif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226909D1293F67B2005E0C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.MotifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motif";
+			};
+			name = Debug;
+		};
+		226909D2293F67B2005E0C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.MotifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motif";
+			};
+			name = Release;
+		};
+		226909D4293F67B2005E0C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.MotifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motif;
+			};
+			name = Debug;
+		};
+		226909D5293F67B2005E0C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ghaliah.MotifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motif;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226909A4293F67B1005E0C31 /* Build configuration list for PBXProject "Motif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226909CB293F67B2005E0C31 /* Debug */,
+				226909CC293F67B2005E0C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226909CD293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "Motif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226909CE293F67B2005E0C31 /* Debug */,
+				226909CF293F67B2005E0C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226909D0293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "MotifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226909D1293F67B2005E0C31 /* Debug */,
+				226909D2293F67B2005E0C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226909D3293F67B2005E0C31 /* Build configuration list for PBXNativeTarget "MotifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226909D4293F67B2005E0C31 /* Debug */,
+				226909D5293F67B2005E0C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226909A1293F67B1005E0C31 /* Project object */;
+}
